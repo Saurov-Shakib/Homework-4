@@ -1,0 +1,49 @@
+p{
+	color: yellow;
+}
+.green{
+	color: green;
+}
+
+.Box1{
+	width: 100px;
+	height: 100px;
+	background-color: darkorange;
+}
+.Box2{
+	width: 300px;
+	height: 100px;
+	background-color: yellow;
+	margin: 60px 120px;
+	/* 1 value= top bottom right left
+	   2 value= top bottom left & right
+	   3 value= top left&right bottom
+	 */
+padding: 100px;
+border: 10px solid black; 
+}
+.header{
+	min-height: 80px;
+	background-color: purple;
+}
+.wrapper{
+	border: 5px solid skyblue;
+	overflow: hidden;
+}
+.blog{
+	width: 30%;
+	min-height: 150px;
+	background-color: green; 
+	float: left;
+}
+.contact{
+	width: 70%;
+	min-height: 150px;
+	background-color: black;
+	float: right;
+}
+.footer{
+	min-height: 80px;
+	background-color: red;
+	clear: both;
+}
